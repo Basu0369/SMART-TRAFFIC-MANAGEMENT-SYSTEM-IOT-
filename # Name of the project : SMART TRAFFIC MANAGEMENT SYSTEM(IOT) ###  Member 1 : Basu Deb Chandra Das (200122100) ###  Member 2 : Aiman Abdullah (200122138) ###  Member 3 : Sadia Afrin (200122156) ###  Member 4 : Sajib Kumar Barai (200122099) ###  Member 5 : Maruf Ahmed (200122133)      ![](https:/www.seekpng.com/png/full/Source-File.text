@@ -1,0 +1,191 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{SMART TRAFFIC MANAGEMENT SYSTEM (IOT)*\\
+{\footnotesize \textsuperscript{}}
+\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Basu deb Chandra Das}
+\IEEEauthorblockA{\textit{dept. name of CSE} \\
+\textit{ID: 200122100}\\
+}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Maruf Ahmed}
+\IEEEauthorblockA{\textit{dept. name of CSE} \\
+\textit{ID : 200122133}\\
+}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Aiman Abdullah}
+\IEEEauthorblockA{\textit{dept. name of CSE} \\
+\textit{ID : 200122138}\\
+}
+\and
+\IEEEauthorblockN{4\textsuperscript{th} Sadia Afrin}
+\IEEEauthorblockA{\textit{dept. name of CSE} \\
+\textit{ID: 200122156}\\
+}
+\and
+\IEEEauthorblockN{5\textsuperscript{th} Sajib Kumar
+Barai}
+\IEEEauthorblockA{\textit{dept. name of CSE)} \\
+\textit{ID: 200122099}\\
+}
+\and
+
+}
+
+\maketitle
+
+\begin{abstract}
+Traffic Management is an issue which impacts us almost daily. Use of technology and
+real time analysis can actually lead to a smooth traffic management. The common
+reason for traffic congestion is due to poor traffic prioritization. Let us take the
+scenario of Bangladesh. It is 1
+st most populous city of Dhaka. While the number of
+vehicles are increasing at a fast pace, the infrastructure in the city is not being able
+to match this growth. However, our solution to this problem is not limited to the Dhaka
+city only. 
+\end{abstract}
+
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+\section{Introduction}
+It can be used for other urban cities as well where traffic jams during rush
+hours are becoming a routine affair, especially in the internal sectors where long
+queues of vehicles can be seen stranded. Therefore, we have tried to address the
+problem with the help of our project wherein the focus would be to minimize the
+vehicular congestion. We have achieved this with the help of image processing that
+can be obtained from surveillance cameras and eventually to deploy a feedback
+mechanism in the working of the traffic lights where the density of the traffic would
+also be factored in the decision making process. 
+
+\section{ANALYSIS/ RESEARCH ON WHY PROBLEM EXISTS}
+
+\subsection{The main reasons for traffic congestion and delay are analysed as follows:}
+\begin{itemize}
+\item Poor Traffic Management
+\item Lesser use of automated techniques
+\item More number of Vehicles
+\item Unrestrained demand
+\item Insufficient Capacity
+\item Large Red Light Delays
+\end{itemize}
+\section{Intelligent Traffic Management System}
+The government is trying its best to ensure swift movement of traffic on roads
+by constructing wider roads, flyovers, underpasses and expressways etc. But,
+giving wider roads to the burgeoning number of vehicles is not enough. You
+must ensure safety on roads along with traffic management and it can better
+be achieved by Intelligent Traffic Management System (ITMS).
+
+\subsection{Existing System:}\label{AA}
+\begin{itemize}
+\item It is Difficult to identify the Traffic Violators
+\item There is no IOT based Traffic management System.
+\end{itemize}
+\subsection{Proposed System:}
+\begin{itemize}
+\item  IOT based traffic management
+ \item Easy to find the path for emergency condition
+in ambulance.
+\item The Traffic violators are captured and send to
+Police.
+\item Can be used anywhere,
+\item No need of human power to
+identify violators during night
+
+\end{itemize}
+
+\subsection{ANALYSIS/ RESEARCH ON WHY PROBLEM EXISTS.}
+After doing extensive research, we reached the conclusion that there are
+several drawbacks of earlier methods - Wastage of time by lighting green
+signal even when road is empty. Image processing removes such problem.
+Slight difficult to implement in real time because the accuracy of time
+calculation depends on relative position of camera. This project provides a
+solution to reduce traffic congestion on roads overriding the older system of
+hard coded lights which cause unwanted delays. Reducing congestion and
+waiting time will lessen the number of accidents and also reduces fuel
+consumption which in turn will help in controlling the air pollution. This will also
+provide data for future road design and construction or where improvements
+are required and which are urgent like which junction has higher waiting
+times.
+\begin{equation}
+a+b=\gamma\label{eq}
+\end{equation}
+
+Varied hardware devices are installed to collect data from different sources.
+This hardware includes automatic vehicle identifiers, sensors, camera, and
+GPS based automatic vehicle locators etc. The received data such as traffic
+count, travel speed, vehicle weight, surveillance, and delays etc. is forwarded
+to the master controller.
+
+\subsection{Number Plate Detection}
+
+The objective of the research paper is to capture the design a Vehicle
+Number Plate Identification System which can be used to identify
+and read the license number of any vehicle. The basic process involves taking
+the image of the front/rear of the vehicle which then gets
+processed and ultimately the number gets displayed on the LCD.
+
+\subsection{Some Common Mistakes}\label{SCM}
+\begin{itemize}
+\item The word ``data'' is plural, not singular.
+\item The subscript for the permeability of vacuum $\mu_{0}$, and other common scientific constants, is zero with subscript formatting, not a lowercase letter ``o''.
+\item In American English, commas, semicolons, periods, question and exclamation marks are located within quotation marks only when a complete thought or name is cited, such as a title or full quotation. When quotation marks are used, instead of a bold or italic typeface, to highlight a word or phrase, punctuation should appear outside of the quotation marks. A parenthetical phrase or statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)
+\item A graph within a graph is an ``inset'', not an ``insert''. The word alternatively is preferred to the word ``alternately'' (unless you really mean something that alternates).
+\item Do not use the word ``essentially'' to mean ``approximately'' or ``effectively''.
+\end{itemize}
+An excellent style manual for science writers is \cite{b7}.
+
+\subsection{Data transmission}
+\textbf{Rapid and real-time information is collected and forwarded to the users.} Rapid and real-time information is collected and forwarded to the users. The
+information is analysed and used to make traffic related announcements to
+the travellers through the internet, SMS, or on-board units of the vehicle.
+
+
+\section*{METHODOLOGY}
+
+The cloud contains all the information in the database which has information
+like users, vehicles, Traffic offences, Safe limitfor each Road, Locations of each
+vehicles and roads etc. The network of these Vehicles is stored to identify and
+authorize and also track their features like conditions, driving range, max
+speed, safety measures etc. The officials are given premium benefits to
+monitor the vehicle registrations, available users, incoming applications, traffic
+violence and offence, and traffic flow. These officials can access and modify
+the blockage of routes in case of a VIP patrol or any other unavoidable
+closures in the road and the users can choose an alternate route
+
+\section*{References}
+
+\begin{itemize}
+\item Janahan, Senthil Kumar and Murugappan, Veeramanickam and
+Sahayadhas, Arun and Narayanan, Kumar and R, Anandan and Shaik,
+Javed. (2021). IoT based smart traffic signalmonitoring system
+using vehicles counts. InternationalJournal of Engineering
+and Technology.7.309.10.14419/ijet.v7i2.21.1238.
+
+\item Trivedi, Janak and Sarada Devi, Mandalapu and Dhara, Dave.
+Review Paper on Intelligent Traffic Control systemusing
+Computer Vision for Smart City. International Journal of Scientific
+and Engineering Research. 8. 14-20.
+\end{itemize}
+
+\vspace{12pt}
+\color{red}
+Let’s use technology to make our country
+move forward!
+Thank You!
+
+\end{document}
